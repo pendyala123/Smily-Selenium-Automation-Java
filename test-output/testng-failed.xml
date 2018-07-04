@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="email_module_test_cases.MaropostEmailContactsTestCases">
+        <methods>
+          <include name="test_to_delete_contacts_sql_query"/>
+          <include name="test_to_edit_contacts_brand"/>
+          <include name="tearDown"/>
+          <include name="test_to_delete_contacts_tag"/>
+          <include name="test_to_edit_contacts_secure_list"/>
+          <include name="test_verify_signin_section"/>
+          <include name="test_to_delete_contacts_list"/>
+          <include name="test_to_edit_contacts_preference_page"/>
+          <include name="test_to_delete_contacts_table"/>
+          <include name="test_create_new_contacts_table"/>
+          <include name="test_to_edit_contacts_table"/>
+          <include name="test_create_new_contacts_preference_page"/>
+          <include name="setup"/>
+          <include name="test_create_new_contacts_list"/>
+          <include name="test_to_edit_contacts_list"/>
+          <include name="test_create_new_contacts_secure_list"/>
+          <include name="test_to_edit_contacts_sql_query"/>
+          <include name="test_create_new_contacts_sqlquery"/>
+          <include name="test_create_new_contacts_brand"/>
+          <include name="test_to_delete_contacts_preference_page"/>
+          <include name="test_create_new_contacts_field"/>
+          <include name="test_create_new_contacts_tag"/>
+          <include name="test_to_delete_contacts_securelist"/>
+        </methods>
+      </class> <!-- email_module_test_cases.MaropostEmailContactsTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
